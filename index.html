@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,200;1,400;1,600;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+      integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+      integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"
+      integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- page header -->
+    <header
+      class="page-header container-fluid pt-5 position-fixed top-0 left-0"
+      id="page-header"
+    >
+      <nav
+        class="navbar navbar-expand-md mx-auto py-2 px-3 shadow-3 d-flex justify-content-between"
+      >
+        <a href="#" class="navbar-brand logo fs-3 ff-oswald">WATCH-DOM</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavigationMenu"
+          aria-controls="mainNavigationMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavigationMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                href=""
+                class="nav-link active"
+                aria-current="pa
+              "
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-content container-fluid p-0" id="page-content">
+      <!-- Landing Section -->
+      <section
+        class="section landing-section container-fluid py-5"
+        id="landing-section"
+      >
+        <div class="wrapper container-lg">
+          <h1 class="page-title fs-1 text-center d-flex flex-column">
+            <p class="line m-0"> <span class="text">More Than</span> </p>
+            <p class="line m-0"> <span class="text">A Watch</span> </p>
+          </h1>
+
+          <div class="landing-display position-relative mt-5 mx-auto">
+            <video
+              src="./videos/watchdom-video.mp4"
+              class="landing-video d-block w-100 h-100 object-fit-contain"
+              autoplay
+              muted
+              loop
+              id="landing-video"
+            ></video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section
+        class="section gallery-section container-fluid py-5"
+        id="gallery-section"
+      >
+        <div class="wrapper container-lg">
+          <div class="gallery-grid my-5">
+            <div class="image-container image-container-1">
+              <img
+                alt="watch-type-001"
+                width="1280"
+                height="961"
+                class="gallery-image lozad"
+                data-src="./images/watch_8.jpeg"
+              />
+            </div>
+            <div class="image-container image-container-2">
+              <img
+                alt="watch-type-002"
+                width="1280"
+                height="848"
+                class="gallery-image lozad"
+                data-src="./images/watch_6.jpeg"
+              />
+            </div>
+            <div class="image-container image-container-3">
+              <img
+                alt="watch-type-003"
+                width="1280"
+                height="853"
+                class="gallery-image lozad"
+                data-src="./images/watch_5.jpeg"
+              />
+            </div>
+            <div class="image-container image-container-4">
+              <img
+                alt="watch-type-004"
+                width="1280"
+                height="853"
+                class="gallery-image lozad"
+                data-src="./images/watch_4.jpeg"
+              />
+            </div>
+            <div class="image-container image-container-5">
+              <img
+                alt="watch-type-005"
+                width="668"
+                height="853"
+                class="gallery-image lozad"
+                data-src="./images/watch_1.jpeg"
+              />
+            </div>
+            <div class="image-container image-container-6">
+              <img
+                alt="watch-type-006"
+                width="1279"
+                height="853"
+                class="gallery-image lozad"
+                data-src="./images/watch_3.jpeg"
+              />
+            </div>
+
+            <div class="gallery-divider central-divider my-5">
+              <!-- set space to divide the 2 gallery sud
+              divisions -->
+            </div>
+
+            <div class="text-container text-container-1 py-4">
+              <h3 class="fs-2 text-left">Need a casual, low-profile watch?</h3>
+              <p class="text">
+                With a wide range of low profile watches we easily provide
+                options for all seeking minimalist design in their gear
+              </p>
+              <a href="" class="btn btn-default-1"> Minimalist LineUp </a>
+            </div>
+            <div class="text-container text-container-2 py-4">
+              <h3 class="fs-2 text-left">
+                Want to easily impress on your outings? Try our more illustrious
+                offerings.
+              </h3>
+              <p class="text">
+                For those seeking more flashy and classy watches our line of
+                jewel encrasted and premium watches is one you definitely wont
+                want to miss.
+              </p>
+              <a href="" class="btn btn-default-1"> Elitist Line Up </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info Section -->
+      <section
+        class="section info-section container-fluid bg-desert col-ebony py-5"
+        id="info-section"
+      >
+        <div class="wrapper container-lg">
+          <div class="row align-items-center">
+            <div class="col-md-6 visual-column py-5">
+              <div id="info-visual-01" class="info-visual-01 info-visual py-5">
+                <div
+                  class="image-container image-container-01 w-75 p-0 mx-auto ratio-3x4 position-relative"
+                >
+                  <img
+                    alt="man with watch"
+                    srcset=""
+                    class="fit-background-cover lozad image position-relative rounded-3"
+                    data-src="./images/image_001.jpeg"
+                  />
+
+                  <div
+                    class="image-shadow w-100 h-100 position-absolute top-0 left-0 bg-buff rounded-3"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 text-column">
+              <h2 class="section-title fs-2">
+                Curious About How to Get the Right Watch For You?
+              </h2>
+              <p class="text">
+                Learn more on our blog discussing how to pick the right watch
+                based on the occasion and location.
+              </p>
+              <a href="" class="btn btn-default-2"> Visit Our Blog </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer container-fluid p-3 mt-5" id="page-footer">
+      <div class="wrapper container-lg bg-alternate p-3 rounded-3">
+        <div class="row gy-3">
+          <div class="col-md-6">
+            <a href="#" class="d-block logo fs-2 ff-oswald link-light mb-3">
+              WATCH-DOM
+            </a>
+            <h3 class="fs-5 text-capitalize">Subscribe to Newsletter</h3>
+            <form class="form" id="newsletter-form">
+              <input
+                type="text"
+                name="subscriber-email-address"
+                id="subscriber-email-address"
+                class="subscriber-email-address form-control form-control-md"
+                placeholder="email address"
+              />
+            </form>
+          </div>
+
+          <div class="col-md-3">
+            <h3 class="fs-5 text-capitalize">Site map</h3>
+            <ul
+              class="nav flex-sm-row flex-md-column sitemap-nav"
+              role="navigation"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link link-light p-1 active"
+                  aria-current="p
+                "
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light p-1">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light p-1">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light p-1">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light p-1">FAQ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h3 class="fs-5 text-capitalize">Socials</h3>
+            <ul
+              class="social-links-list d-flex flex-sm-row flex-wrap gx-2 fs-2 p-1"
+              role="navigation"
+            >
+              <li class="list-item mx-1">
+                <a><i class="fa-brands p-1 fa-instagram"></i></a>
+              </li>
+              <li class="list-item mx-1">
+                <a><i class="fa-brands fa-pinterest"></i></a>
+              </li>
+              <li class="list-item mx-1">
+                <a><i class="fa-regular fa-envelope"></i></a>
+              </li>
+              <li class="list-item mx-1">
+                <a><i class="fa-brands fa-telegram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="copyright-text text-center fs-mini p-0 m-0 mt-4">
+          Made by Kadeem @ 2023
+        </p>
+      </div>
+    </footer>
+
+    <!-- Lozad Js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.0.8/lozad.min.js"
+      integrity="sha512-Nt+V5JYamXCSvlHzNVleriGhTrolnfxckJ8sEXxv/BJ0tKV1HyPDXH+bIFNcUJ5hcthQ95uAeU2JClPT16mFyg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Popper Js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.7/umd/popper.min.js"
+      integrity="sha512-uaZ0UXmB7NHxAxQawA8Ow2wWjdsedpRu7nJRSoI2mjnwtY8V5YiCWavoIpo1AhWPMLiW5iEeavmA3JJ2+1idUg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+      integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Custom Scripts -->
+    <script defer src="app.js"></script>
+  </body>
+</html>
